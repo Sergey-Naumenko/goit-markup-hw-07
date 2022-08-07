@@ -56,6 +56,20 @@ img {
    font-style: normal;
 }
 
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* base styles */
 
 .section {
@@ -281,22 +295,6 @@ margin-right: auto;
     justify-content: center;
 }
 
-
-.advantage__title,
-.portfolio__title {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .advantage__list {
     display: flex;
     flex-direction: row;
@@ -325,9 +323,9 @@ margin-right: auto;
 
 /* Services */
 
-.services-title,
-.team-title,
-.client-title {
+.services__title,
+.team__title,
+.client__title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -338,25 +336,25 @@ margin-right: auto;
 
 }
 
-.section-services {
+.services {
     padding-bottom: 94px;
 }
 
-.services-title {
+.services__title {
     margin-bottom: 50px;
 }
 
-.services-list {
+.services__list {
     display: flex;
     gap: 30px;
 }
 
-.services-item {
+.services__item {
     position: relative;
 }
 
 
-.services-overlay {
+.services__overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -368,7 +366,7 @@ margin-right: auto;
     background-color: rgba(47, 48, 58, 0.8);;
 }
 
-.services-overlay-text {
+.services__text {
 font-weight: 700;
 font-size: 14px;
 line-height: calc(16 / 14);
@@ -382,25 +380,31 @@ color: var(--logo-withe-cl);
 
 /* Team */
 
-.section-team {background-color: var(--bg-cl-light);}
+.team {background-color: var(--bg-cl-light);}
 
-.team-title {
+.team__title {
     margin-bottom: 50px;
 }
 
-.team-item {
+.team__item {
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
 
-.team-list {
+.team__list {
     display: flex;
     gap: 30px;
 
 }
 
-.team-item-title {
+.team-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.team-wrapper__title {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
@@ -410,19 +414,13 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
-.team-item-text {
+.team-wrapper__text {
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
     margin-bottom: 16px;
-
-}
-
-.team-wrapper {
-    padding-top: 30px;
-    padding-bottom: 30px;
 
 }
 
@@ -433,11 +431,11 @@ border-radius: 0px 0px 4px 4px;
     gap: 10px;
 }
 
-.social-icon {
+.socials__icon {
     transition: fill var(--timing-function);
 }
 
-.socials-link {
+.socials__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -449,29 +447,29 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
-.social-icon {
+.socials__icon {
     fill: var(--social-icon-cl-team);
 }
 
-.socials-link:hover {
+.socials__link:hover {
 background-color: var(--accent-txt-cl);
 }
 
-.socials-link:hover .social-icon {
+.socials__link:hover .socials__icon {
     fill: #FFFFFF;
 }
 
-.socials-link:focus {
+.socials__link:focus {
     background-color: var(--accent-txt-cl);
 }
 
-.socials-link:focus .social-icon {
+.socials__link:focus .socials__icon {
     fill: #FFFFFF;
 }
 
 /* Clients */
 
-.client-title {
+.client__title {
     margin-bottom: 50px;
 }
 
