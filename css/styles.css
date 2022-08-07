@@ -920,7 +920,7 @@ text-align: center;
 
 /* Portfolio.html */
 
-.portfolio-filter-list {
+.filter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -979,7 +979,7 @@ text-align: center;
 
 }
 
-.portfolio-overlay-txt {
+.portfolio-overlay__txt {
 
     font-size: 18px;
     line-height: calc(28 / 18);
@@ -990,31 +990,31 @@ text-align: center;
 
 }
 
-.portfolio-list {
+.portfolio__list {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-.portfolio-thumb {
+.portfolio__thumb {
     position: relative;
     overflow: hidden;
 
 }
 
-.portfolio-item{
+.portfolio__item{
     flex-basis: calc((100% - 30px * 2) / 3);
     transition: box-shadow var(--timing-function);
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio__item:hover,
+.portfolio__item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
 
 }
 
-.portfolio-item:hover
+.portfolio__item:hover
 .portfolio-overlay {
     transform: translateY(0);
 
@@ -1028,7 +1028,7 @@ text-align: center;
 }
 
 
-.portfolio-item-title {
+.portfolio-wrapper__title {
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
@@ -1036,7 +1036,7 @@ text-align: center;
     margin-bottom: 4px;
 }
 
-.portfolio-item-text {
+.portfolio-wrapper__text-text {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
