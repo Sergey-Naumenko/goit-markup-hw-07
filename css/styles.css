@@ -204,7 +204,7 @@ margin-right: auto;
 
 /* Hero */
 
-.section-hero {
+.hero {
     background-color: var(--bg-cl-dark);
     max-width: 1600px;
     margin-left: auto;
@@ -221,7 +221,7 @@ margin-right: auto;
 
 }
 
-.hero-container {
+.hero__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,7 +229,7 @@ margin-right: auto;
     padding-bottom: 200px;
     }
 
-.hero-title {
+.hero__title {
     width: 696px;
     height: 120px;
     margin-bottom: 30px;
@@ -243,7 +243,7 @@ margin-right: auto;
 
 }
 
-.hero-btn {
+.btn {
     min-width: 200px;
     min-height: 50px;
     padding: 10px 32px;
@@ -264,14 +264,14 @@ margin-right: auto;
    
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.btn:hover,
+.btn:focus {
     background-color: var(--bg-btn-cl-hover);
 }
 
 /* Advantage */
 
-.advantage-container {
+.advantage__container {
     display: flex;
     object-position: 50% 50%;
     height: 120px;
@@ -282,8 +282,8 @@ margin-right: auto;
 }
 
 
-.advantage-title,
-.portfolio-title {
+.advantage__title,
+.portfolio__title {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -297,14 +297,14 @@ margin-right: auto;
     overflow: hidden;
 }
 
-.advantage-list {
+.advantage__list {
     display: flex;
     flex-direction: row;
     gap: 30px;
 
 }
 
-.advantage-item-title {
+.advantage__title {
     width: 270px;
     font-weight: 700;
     font-size: 14px;
@@ -315,7 +315,7 @@ margin-right: auto;
 
 }
 
-.advantage-item-text {
+.advantage__text {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
