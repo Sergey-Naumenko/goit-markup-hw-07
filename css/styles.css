@@ -780,7 +780,6 @@ text-align: center;
     height: 40px;
 }
 
-
 .form__input,
 .form__textarea {
     width: 100%;
@@ -918,7 +917,6 @@ text-align: center;
     background-color: #188CE8;
     transition: transform var(--timing-function);
 }
-
 
 /* Portfolio.html */
 
