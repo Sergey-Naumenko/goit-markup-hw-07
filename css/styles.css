@@ -427,7 +427,7 @@ border-radius: 0px 0px 4px 4px;
 
 } */
 
-.socials {
+/* .socials {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -462,12 +462,12 @@ background-color: var(--accent-txt-cl);
 .socials__link:hover .socials__icon,
 .socials__link:focus .socials__icon {
     fill: #FFFFFF;
-}
+} */
 
 
 /* Clients */
 
-.client__title {
+/* .client__title {
     margin-bottom: 50px;
 }
 
@@ -503,12 +503,12 @@ background-color: var(--accent-txt-cl);
 .client__link:hover .client__icon,
 .client__link:focus .client__icon {
     fill: var(--accent-txt-cl);
-}
+} */
 
 
 /* Footer */
 
-.footer {
+/* .footer {
     background-color: var(--bg-cl-dark);
     padding-top: 60px;
     padding-bottom: 60px;
@@ -529,11 +529,11 @@ background-color: var(--accent-txt-cl);
     color: var(--logo-withe-cl);
 
     margin-bottom: 20px;
-}
+} */
 
 /* logo footer */
 
-.logo-footer {
+/* .logo-footer {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -549,9 +549,9 @@ background-color: var(--accent-txt-cl);
 
 .logo-footer__text--accent {
     color: var(--accent-txt-cl);
-}
+} */
 
-.address__item {
+/* .address__item {
     margin-bottom: 9px;
     margin-right: 70px;
 }
@@ -583,19 +583,19 @@ background-color: var(--accent-txt-cl);
 .address__mail:focus,
 .address__phone:focus {
     color: var(--accent-txt-cl);
-}
+} */
 
-.social__icon--white {
+/* .social__icon--white {
     fill: var(--logo-withe-cl);
 }
 
 .socials__link--gray {
     background: rgba(255, 255, 255, 0.1);
-}
+} */
 
 /* subscribe form */
 
-.footer-subscrib {
+/* .footer-subscrib {
     margin-left: 93px;
     display: inline;
 
@@ -660,12 +660,12 @@ background-color: var(--accent-txt-cl);
 .footer-btn:focus {
     background-color: #188CE8;
     transition: background-color var(--timing-function) ;
-}
+} */
 
 
  /* Modal window */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -677,9 +677,9 @@ background-color: var(--accent-txt-cl);
 
     transition: opacity var(--timing-function), visibility var(--timing-function);
 
-}
+} */
 
-.modal {
+/* .modal {
 
     width: 528px;
     height: 581px;
@@ -696,9 +696,9 @@ background-color: var(--accent-txt-cl);
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-}
+} */
 
-.modal-btn {
+/* .modal-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -722,17 +722,17 @@ background-color: var(--accent-txt-cl);
 .modal-btn:hover {
     fill: var(--accent-txt-cl);
     cursor: pointer;
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+} */
 
 /* Modal form */
 
-.form {
+/* .form {
 text-align: center;
 
 }
@@ -869,27 +869,10 @@ text-align: center;
     left: 12px;
     fill: #212121;
 
-}
+} */
 
-.visualy-hidden {
-    position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-    
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-}
 
-.icon-shadow {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.btn-close {
+/* .btn-close {
     display: inline-flex;
     align-items: center;
     text-align: center;
@@ -916,20 +899,20 @@ text-align: center;
 .btn-close:hover {
     background-color: #188CE8;
     transition: transform var(--timing-function);
-}
+} */
 
 /* Portfolio.html */
 
-.filter {
+/* .filter {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
     gap: 8px;
 
-}
+} */
 
-
+/* 
 .filter-btn {
     background-color: var(--bg-cl-light);
     font-family: inherit;
@@ -957,9 +940,9 @@ text-align: center;
     cursor: pointer;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-}
+} */
 
-.portfolio-overlay {
+/* .portfolio-overlay {
     background-color: rgba(33, 150, 243, 0.9);
     position: absolute;
     width: 100%;
@@ -1041,4 +1024,4 @@ text-align: center;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
-}
+} */

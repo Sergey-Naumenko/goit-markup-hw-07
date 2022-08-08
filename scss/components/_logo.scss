@@ -14,8 +14,25 @@
         }
 }
 
-
-
 .header__logo {
     margin-right: 93px;
 }
+
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    display: flex;
+    margin-bottom: 20px;
+
+    &__text--white {
+            color: var(--logo-withe-cl);
+        }
+    
+        &__text--accent {
+            color: var(--accent-txt-cl);
+        }
+}
+
